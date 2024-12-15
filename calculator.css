@@ -22,8 +22,10 @@ h1{
 }
 .button-container{
   background-color: black;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+  padding: 10px;
 }
 .button{
   color: #e1a0ee;
